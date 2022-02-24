@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>615</width>
-    <height>321</height>
+    <width>668</width>
+    <height>401</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <spacer name="verticalSpacer">
+     <spacer name="verticalSpacer_2">
       <property name="orientation">
        <enum>Qt::Vertical</enum>
       </property>
@@ -29,9 +29,9 @@
      </spacer>
     </item>
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <layout class="QHBoxLayout" name="example_layout">
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="example_label">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -51,7 +51,7 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QFrame" name="verticalFrame_7">
+       <widget class="QFrame" name="prefi_frame">
         <property name="maximumSize">
          <size>
           <width>100</width>
@@ -60,7 +60,7 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_10">
          <item>
-          <widget class="QLabel" name="label_10">
+          <widget class="QLabel" name="prefi_label">
            <property name="toolTip">
             <string>文件前缀（可选）</string>
            </property>
@@ -73,7 +73,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit_10">
+          <widget class="QLineEdit" name="prefi_text">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
@@ -89,7 +89,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="verticalFrame_11">
+       <widget class="QFrame" name="preconnector_frame">
         <property name="minimumSize">
          <size>
           <width>70</width>
@@ -104,7 +104,7 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_11">
          <item>
-          <widget class="QLabel" name="label_11">
+          <widget class="QLabel" name="preconnector_label">
            <property name="toolTip">
             <string>前缀连接符（可选）</string>
            </property>
@@ -117,7 +117,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit_11">
+          <widget class="QLineEdit" name="preconnector_text">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
@@ -133,7 +133,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="verticalFrame_9">
+       <widget class="QFrame" name="name_frame">
         <property name="minimumSize">
          <size>
           <width>200</width>
@@ -142,7 +142,7 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_9">
          <item>
-          <widget class="QLabel" name="label_9">
+          <widget class="QLabel" name="name_label">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
              <horstretch>0</horstretch>
@@ -161,7 +161,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit_9">
+          <widget class="QLineEdit" name="name_text">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
@@ -177,7 +177,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="verticalFrame_7">
+       <widget class="QFrame" name="suffix_connecto_frame">
         <property name="maximumSize">
          <size>
           <width>70</width>
@@ -186,7 +186,7 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_7">
          <item>
-          <widget class="QLabel" name="label_7">
+          <widget class="QLabel" name="suffix_connecto_label">
            <property name="toolTip">
             <string>后缀连接符（可选）</string>
            </property>
@@ -199,7 +199,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit_7">
+          <widget class="QLineEdit" name="suffix_connecto_text">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
@@ -215,7 +215,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="verticalFrame_8">
+       <widget class="QFrame" name="suffix_frame">
         <property name="maximumSize">
          <size>
           <width>100</width>
@@ -224,7 +224,7 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_8">
          <item>
-          <widget class="QLabel" name="label_8">
+          <widget class="QLabel" name="suffix_label">
            <property name="toolTip">
             <string>后缀（可选）</string>
            </property>
@@ -237,7 +237,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit_8">
+          <widget class="QLineEdit" name="suffix_text">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
@@ -253,7 +253,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="verticalFrame_12">
+       <widget class="QFrame" name="file_suffix_frame">
         <property name="maximumSize">
          <size>
           <width>100</width>
@@ -262,7 +262,7 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_12">
          <item>
-          <widget class="QLabel" name="label_12">
+          <widget class="QLabel" name="file_suffix_label">
            <property name="toolTip">
             <string>文件后缀/文件类型（可选）</string>
            </property>
@@ -275,7 +275,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit_12">
+          <widget class="QLineEdit" name="file_suffix_text">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
@@ -293,7 +293,52 @@
      </layout>
     </item>
     <item>
-     <spacer name="verticalSpacer_2">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="start_button">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>开始批量命名</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QProgressBar" name="progressBar">
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
       <property name="orientation">
        <enum>Qt::Vertical</enum>
       </property>
@@ -312,7 +357,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>615</width>
+     <width>668</width>
      <height>26</height>
     </rect>
    </property>
