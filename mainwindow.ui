@@ -31,19 +31,6 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QLabel" name="label_2">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>样例：</string>
-        </property>
-       </widget>
-      </item>
-      <item>
        <widget class="QLabel" name="label">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
@@ -55,96 +42,7 @@
          <string>前缀（可选）</string>
         </property>
         <property name="text">
-         <string>1</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_3">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="toolTip">
-         <string>连接符（可选）</string>
-        </property>
-        <property name="text">
-         <string>-</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_5">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>200</width>
-          <height>0</height>
-         </size>
-        </property>
-        <property name="toolTip">
-         <string>文件名（必填）</string>
-        </property>
-        <property name="text">
-         <string>20220101</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_4">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="toolTip">
-         <string>后缀连接符（可选）</string>
-        </property>
-        <property name="text">
-         <string>+</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_6">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="toolTip">
-         <string>后缀（可选）</string>
-        </property>
-        <property name="text">
-         <string>修改</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_13">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="toolTip">
-         <string>文件扩展名（可选）</string>
-        </property>
-        <property name="text">
-         <string>.jpg</string>
+         <string>例：1-20220101+修改.jpg</string>
         </property>
        </widget>
       </item>
@@ -163,6 +61,9 @@
         <layout class="QVBoxLayout" name="verticalLayout_10">
          <item>
           <widget class="QLabel" name="label_10">
+           <property name="toolTip">
+            <string>文件前缀（可选）</string>
+           </property>
            <property name="text">
             <string>前缀</string>
            </property>
@@ -204,6 +105,9 @@
         <layout class="QVBoxLayout" name="verticalLayout_11">
          <item>
           <widget class="QLabel" name="label_11">
+           <property name="toolTip">
+            <string>前缀连接符（可选）</string>
+           </property>
            <property name="text">
             <string>连接符</string>
            </property>
@@ -245,6 +149,9 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="toolTip">
+            <string>文件名</string>
+           </property>
            <property name="text">
             <string>文件名</string>
            </property>
@@ -280,6 +187,9 @@
         <layout class="QVBoxLayout" name="verticalLayout_7">
          <item>
           <widget class="QLabel" name="label_7">
+           <property name="toolTip">
+            <string>后缀连接符（可选）</string>
+           </property>
            <property name="text">
             <string>连接符</string>
            </property>
@@ -315,6 +225,9 @@
         <layout class="QVBoxLayout" name="verticalLayout_8">
          <item>
           <widget class="QLabel" name="label_8">
+           <property name="toolTip">
+            <string>后缀（可选）</string>
+           </property>
            <property name="text">
             <string>后缀</string>
            </property>
@@ -350,6 +263,9 @@
         <layout class="QVBoxLayout" name="verticalLayout_12">
          <item>
           <widget class="QLabel" name="label_12">
+           <property name="toolTip">
+            <string>文件后缀/文件类型（可选）</string>
+           </property>
            <property name="text">
             <string>文件后缀</string>
            </property>
