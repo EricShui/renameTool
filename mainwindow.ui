@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>677</width>
-    <height>365</height>
+    <width>804</width>
+    <height>245</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -133,7 +133,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="name_start_frame">
+       <widget class="QFrame" name="name_frame">
         <property name="minimumSize">
          <size>
           <width>200</width>
@@ -142,7 +142,7 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_9">
          <item>
-          <widget class="QLabel" name="name_start_label">
+          <widget class="QLabel" name="name_label">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
              <horstretch>0</horstretch>
@@ -159,6 +159,47 @@
             <string>文件名起始数值</string>
            </property>
            <property name="text">
+            <string>文件名</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="name_text">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maxLength">
+            <number>40</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="name_start_frame">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_13">
+         <item>
+          <widget class="QLabel" name="name_start_label">
+           <property name="text">
             <string>文件名起始</string>
            </property>
            <property name="alignment">
@@ -169,13 +210,13 @@
          <item>
           <widget class="QLineEdit" name="name_start_text">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
-           <property name="maxLength">
-            <number>40</number>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
            </property>
           </widget>
          </item>
@@ -451,7 +492,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>677</width>
+     <width>804</width>
      <height>26</height>
     </rect>
    </property>
