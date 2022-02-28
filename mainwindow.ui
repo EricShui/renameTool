@@ -158,6 +158,9 @@
            <property name="toolTip">
             <string>文件名起始数值</string>
            </property>
+           <property name="styleSheet">
+            <string notr="true">color:red</string>
+           </property>
            <property name="text">
             <string>文件名</string>
            </property>
@@ -199,6 +202,18 @@
         <layout class="QVBoxLayout" name="verticalLayout_13">
          <item>
           <widget class="QLabel" name="name_start_label">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="toolTip">
+            <string>文件名范围起始</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color:red</string>
+           </property>
            <property name="text">
             <string>文件名起始</string>
            </property>
@@ -248,12 +263,15 @@
           <widget class="QLabel" name="name_end_label">
            <property name="font">
             <font>
-             <weight>50</weight>
-             <bold>false</bold>
+             <weight>75</weight>
+             <bold>true</bold>
             </font>
            </property>
            <property name="toolTip">
-            <string>文件名截至数值</string>
+            <string>文件名范围截至</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color:red</string>
            </property>
            <property name="text">
             <string>文件名截至</string>
@@ -287,8 +305,17 @@
         <layout class="QVBoxLayout" name="verticalLayout_3">
          <item>
           <widget class="QLabel" name="step_label">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
            <property name="toolTip">
             <string>相邻文件名间隔</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color:red</string>
            </property>
            <property name="text">
             <string>步长</string>
